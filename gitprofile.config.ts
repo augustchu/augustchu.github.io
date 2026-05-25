@@ -125,6 +125,7 @@ const CONFIG = {
       position: 'Undergraduate Researcher',
       from:'January 2025',
       to:'Present',
+    },
     {
       company:'CoreDio',
       position: 'Intern',
