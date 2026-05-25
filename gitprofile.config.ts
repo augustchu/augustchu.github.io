@@ -56,6 +56,7 @@ const CONFIG = {
           title:'Wearable Stroke Detector (High School Project)',
           description:
             'Analyzed and displayed IMU and heart rate data from a heart rate sensor and an Arduino Nano RP2040 on a custom website'
+        },
       ],
     },
   },
