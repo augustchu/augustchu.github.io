@@ -50,7 +50,7 @@ const CONFIG = {
           description:
             'Analog Circuit. \n\
             Designed and built a transmittor and receiver circuit that encoded audio output in IR \
-            and then decoded, filtered, and amplified the signal for play back.
+            and then decoded, filtered, and amplified the signal for play back.'
         },
         {
           title:'Wearable Stroke Detector (High School Project)',
