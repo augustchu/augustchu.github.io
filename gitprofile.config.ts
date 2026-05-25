@@ -112,6 +112,7 @@ const CONFIG = {
       from:'May 2025',
       to: 'September 2025',
       companyLInk: 'https://www.coredio-ai.com/'
+    },
   ],
   educations: [
     {
