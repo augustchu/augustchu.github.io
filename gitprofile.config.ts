@@ -105,6 +105,7 @@ const CONFIG = {
     'Digital Multimeter',
     'Signal Generator',
     'Onshape',
+    'Cell Culturing',
   ],
   experiences: [
     {
