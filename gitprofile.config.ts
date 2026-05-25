@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        //projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,29 +33,37 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Guessing Game (18240 Lab)',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'System Verilog, Vivado.\n \
+             Developed synthesizable RTL in SystemVerilog to implement an 8-round guessing game that interfaced with a Boolean Board to let users pay for a game,\
+             start a game, set a master pattern, guess the pattern, and gave live grading feedback.',
         },
         {
-          title: 'Project Name',
+          title: 'RFID Scanner (18220 Lab)',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'Analog Circuit. \n\
+             Designed, built, and tuned an RFID scanner circuit that successfully read from a tag.',
         },
+        {
+          title:'IR Music Transmitter (18220 Lab)',
+          description:
+            'Analog Circuit. \n\
+            Designed and built a transmittor and receiver circuit that encoded audio output in IR \
+            and then decoded, filtered, and amplified the signal for play back.
+        },
+        {
+          title:'Wearable Stroke Detector (High School Project)',
+          description:
+            'Analyzed and displayed IMU and heart rate data from a heart rate sensor and an Arduino Nano RP2040 on a custom website'
       ],
     },
   },
   seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'august-chu',
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -70,13 +78,13 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '',
     phone: '',
     email: '',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
@@ -91,6 +99,11 @@ const CONFIG = {
     'CircuitLab',
     'HTML',
     'CSS',
+    'Soldering',
+    'Oscilloscope',
+    'Digital Multimeter',
+    'Signal Generator',
+    'Onshape',
   ],
   experiences: [
     {
@@ -106,6 +119,11 @@ const CONFIG = {
       from: 'January 2026',
       to: 'Present',
     },
+    {
+      company: 'Wood Neuro Research Group',
+      position: 'Undergraduate Researcher',
+      from:'January 2025',
+      to:'Present',
     {
       company:'CoreDio',
       position: 'Intern',
@@ -125,8 +143,8 @@ const CONFIG = {
 
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
